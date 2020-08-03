@@ -9,5 +9,5 @@ Done:
 Coming soon:
 ============
 Histogram maker tool - instrument for playing with data ranges to create nice-looking histogram charts
-Dynamic GANTT charts - yet another tool for creating Excel-based GANTT charts
+Dynamic GANTT charts tool - yet another tool for creating Excel-based GANTT charts
 ...
