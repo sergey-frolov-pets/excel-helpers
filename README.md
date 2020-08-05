@@ -3,9 +3,7 @@ Excel tools and VBA snippets for focused business tasks
 
 ## Done:
 - [x] <img src="/static/vba.png" width="75"> ["Multivalue cells" macro](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/multivalue_cells) - You can keep few values in one cell using special form.
-
 - [x] <img src="/static/vba.png" width="75"> ["Friendly spam sender" tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/friendly_spam) - Instrument to send personalized template-based emails to the list of recipients.
-
 - [x] <img src="/static/vba-free.png" width="75"> ["Histogram maker" tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/histogram_maker) - Instrument for playing with data ranges to create nice-looking histogram charts.
 
 ## Coming soon:
