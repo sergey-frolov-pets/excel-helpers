@@ -1,5 +1,6 @@
 # excel-helpers
-Excel tools and VBA snippets for focused business tasks
+Excel tools and VBA snippets for focused business tasks  
+_See [Project wiki](https://github.com/sergey-frolov-pets/excel-helpers/wiki) for details_
 
 ## Done:
 - [x] <img src="/static/vba.png" width="75"> [Multivalue cells macro](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/multivalue_cells) - You can keep few values in one cell using special form.
