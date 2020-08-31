@@ -11,3 +11,4 @@ Excel tools and VBA snippets for focused business tasks
 
 ## Coming soon:
 - [ ] <img src="/static/vba-free.png" width="75"> **Agenda builder tool** - Tool for creating and updating agendas for importaint events (incl. multidays events).
+- [ ] <img src="/static/vba.png" width="75"> **VBA XML Comments to Github wiki pages tool** - Tool for generating Github markdown wiki-pages from VBA modules which contain XML comments.
