@@ -1,5 +1,5 @@
 # excel-helpers
-Excel tools and VBA snippets for focused business tasks
+**_Excel tools and VBA snippets for focused business tasks_**
 
 
 See [`Project wiki`](https://github.com/sergey-frolov-pets/excel-helpers/wiki) for details  
