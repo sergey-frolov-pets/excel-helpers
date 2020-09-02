@@ -2,7 +2,7 @@
 Excel tools and VBA snippets for focused business tasks
 
 
-_See [Project wiki](https://github.com/sergey-frolov-pets/excel-helpers/wiki) for details_  
+See [`Project wiki`](https://github.com/sergey-frolov-pets/excel-helpers/wiki) for details  
 [`Download`](https://github.com/sergey-frolov-pets/excel-helpers/releases/latest/download/excel-helpers.zip) the latest release  
 Ask for new functions, report bugs, etc. by creating [`New Issue`](https://github.com/sergey-frolov-pets/excel-helpers/issues/new/choose)  
 ## Done:
