@@ -2,9 +2,10 @@
 **_Excel tools and VBA snippets for focused business tasks_**
 
 
-See [`Project wiki`](https://github.com/sergey-frolov-pets/excel-helpers/wiki) for details  
-[`Download`](https://github.com/sergey-frolov-pets/excel-helpers/releases/latest/download/excel-helpers.zip) the latest release  
-Share new ideas, report bugs, etc. by creating [`New Issue`](https://github.com/sergey-frolov-pets/excel-helpers/issues/new/choose)  
+- See [`Project wiki`](https://github.com/sergey-frolov-pets/excel-helpers/wiki) for details.  
+- [`Click here`](https://github.com/sergey-frolov-pets/excel-helpers/releases/latest/download/excel-helpers.zip) to download the latest release.  
+- Create [`New Issue`](https://github.com/sergey-frolov-pets/excel-helpers/issues/new/choose) to share new ideas, report bug, etc.  
+  
 ## Done:
 - [x] <img src="/static/vba.png" width="75"> [Multivalue cells macro](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/multivalue_cells) - You can keep few values in one cell using special form.
 - [x] <img src="/static/vba.png" width="75"> [Friendly spam sender tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/friendly_spam) - Instrument to send personalized template-based emails to the list of recipients.
