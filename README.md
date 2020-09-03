@@ -16,5 +16,5 @@
 - [x] <img src="/static/vba-free.png" width="75"> [Agenda builder tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/agenda_builder) - Tool for creating and updating agendas for importaint events (incl. multidays events).
 - [x] <img src="/static/vba.png" width="75"> [VBA XML Comments to Github wiki pages tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/vba_xml_comments_to_github_wiki) - Tool for generating Github markdown wiki-pages from VBA modules which contain XML comments.
 
-## Next tools:
+## Coming:
 - [ ] TBA
