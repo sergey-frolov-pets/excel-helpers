@@ -5,7 +5,17 @@
 - See [`Project wiki`](https://github.com/sergey-frolov-pets/excel-helpers/wiki) for details.  
 - [`Click here`](https://github.com/sergey-frolov-pets/excel-helpers/releases/latest/download/excel-helpers.zip) to download the latest release.  
 - Create [`New Issue`](https://github.com/sergey-frolov-pets/excel-helpers/issues/new/choose) to share new ideas, report bug, etc.  
-  
+
+
+
+**_How to install the tools:_**
+1. [`Download`](https://github.com/sergey-frolov-pets/excel-helpers/releases/latest/download/excel-helpers.zip) Zip-file with the latest release.<br>
+1. Extract Zip-file to any folder you wish.<br>
+1. Open subfolder with the tool you need and open the tool file.<br>
+1. Read the manual on 'HowTo' sheet.<br>
+1. Use the tool.<br>
+
+
 ## Done:
 - [x] <img src="/static/vba.png" width="75"> [Multivalue cells macro](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/multivalue_cells) - You can keep few values in one cell using special form.
 - [x] <img src="/static/vba.png" width="75"> [Friendly spam sender tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/friendly_spam) - Instrument to send personalized template-based emails to the list of recipients.
