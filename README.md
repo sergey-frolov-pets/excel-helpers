@@ -27,4 +27,4 @@
 - [x] <img src="/static/vba.png" width="75"> [VBA XML Comments to Github wiki pages tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/vba_xml_comments_to_github_wiki) - Tool for generating Github markdown wiki-pages from VBA modules which contain XML comments.
 
 ## Coming:
-- [ ] <img src="/static/vba.png" width="75"> Join tables tool - Instrument for joining data from different files (i.e. One table contains information about KPIs from different subsidiaries. You ara sending this table to subsidiaries for filling their respective parts and then preparing joint answer for your management)
+- [ ] <img src="/static/vba.png" width="75"> Join tables tool - Instrument for joining data from different files (i.e. One table contains information about KPIs from different subsidiaries. You are sending this table to subsidiaries for filling their respective parts and then preparing joint answer for your management)
