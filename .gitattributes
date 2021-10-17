@@ -8,3 +8,4 @@
 *.xltm diff=xl
 *.xltx diff=xl
 *.cls linguist-language=VBA
+*.bas linguist-language=VBA
