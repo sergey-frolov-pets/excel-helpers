@@ -28,4 +28,5 @@
 - [x] <img src="/static/vba.png" width="75"> [Update table records tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/update_table_records) - Instrument for joining data from different files (i.e. The table contains information about KPIs from different subsidiaries. You are sending this table to subsidiaries for filling their respective parts and then preparing joint answer for your management).
 
 ## Coming:
-- [ ] <img src="/static/snippets.png" width="75"> **OmniLogger** - VBA framework for logging events and/or errors from your VBA-code into txt/csv files, Excel range or VBA Immediate window
+- [ ] <img src="/static/snippets.png" width="75"> **OmniLogger** - VBA framework for logging events and/or errors from your VBA-code into txt/csv files, Excel range or VBA Immediate window.
+- [ ] <img src="/static/snippets.png" width="75"> **VBA Profiler** - VBA framework which allows you to monitor how long the procedures of your project are running with logging to txt/csv files, Excel range, VBA Immediate window or JSON file.
