@@ -15,6 +15,8 @@
 1. Read the manual on 'HowTo' sheet.<br>
 1. Use the tool.<br>
 
+## Coming soon:
+- [ ] <img src="/static/vba.png" width="75"> VBA scenario analysis tools that simplify your everyday analysis in Excel. Tool #1 works like What-If analysis, but with more than 2 parameters at once. Tool #2 is a wrapper for the Solver add-in, which allows you to work with it easier and faster, without changing parameter cell values, and keep your results in an easy-to-use table for future analysis, i.e. using Tool #1;) 
 
 ## Done:
 - [x] <img src="/static/vba-free.png" width="75"> [Histogram maker tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/histogram_maker) - Instrument for playing with data ranges to create nice-looking histogram charts.
