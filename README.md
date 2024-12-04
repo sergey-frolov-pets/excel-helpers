@@ -16,9 +16,10 @@
 1. Use the tool.<br>
 
 ## Coming soon:
-- [ ] <img src="/static/vba.png" width="75"> VBA scenario analysis tools that simplify your everyday analysis in Excel. Tool #1 works like What-If analysis, but with more than 2 parameters at once. Tool #2 is a wrapper for the Solver add-in, which allows you to work with it easier and faster, without changing parameter cell values, and keep your results in an easy-to-use table for future analysis, i.e. using Tool #1;) 
-
+- NA
+  
 ## Done:
+- [x] <img src="/static/addin.png" width="75"> [Calc_Tables Excel Add-In](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/calc_tables) - Scenarios & Solvers analysis add-in that helps with your everyday analysis in Excel. The are two tools in one add-in. Tool #1 works like What-If analysis, but with more than 2 parameters at once. Tool #2 is a wrapper for the Solver add-in, which allows you to work with it easier and faster, without changing parameter cell values, and keep your results in an easy-to-use table for future analysis (IMPORTANT - It uses Solver VBA API and NOT always gives correct results!) 
 - [x] <img src="/static/vba-free.png" width="75"> [Histogram maker tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/histogram_maker) - Instrument for playing with data ranges to create nice-looking histogram charts.
 - [x] <img src="/static/vba-free.png" width="75"> [Decision making tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/decision_maker) - Tool for making decisions based on experts opinions.
 - [x] <img src="/static/vba-free.png" width="75"> [Dynamic GANTT tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/dynamic_gantt) - Lightweight tool for creating autoupdated GANTT charts based on cells values.
