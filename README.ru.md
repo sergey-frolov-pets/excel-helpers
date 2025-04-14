@@ -1,4 +1,4 @@
-# excel-helpers (ru/[`en`](https://github.com/sergey-frolov-pets/excel-helpers/README.md))
+# excel-helpers (ru/[`en`](https://github.com/sergey-frolov-pets/excel-helpers))
 **_Инструменты Excel и VBA-макросы для решения конкретных бизнес-задач._**
 
 
