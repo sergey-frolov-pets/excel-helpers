@@ -15,10 +15,10 @@
 1. Read the manual on 'HowTo' sheet.<br>
 1. Use the tool.<br>
 
-## Coming soon:
+## Coming soon
 - NA
   
-## Done:
+## Done
 - [x] <img src="/static/addin.png" width="75"> [Calc_Tables Excel Add-In](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/calc_tables) - Scenarios & Solvers analysis add-in that helps to work with multi-parameters models.
 - [x] <img src="/static/vba-free.png" width="75"> [Histogram maker tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/histogram_maker) - Instrument for playing with data ranges to create nice-looking histogram charts.
 - [x] <img src="/static/vba-free.png" width="75"> [Decision making tool](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/decision_maker) - Tool for making decisions based on experts opinions.
