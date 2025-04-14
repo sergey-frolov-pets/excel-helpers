@@ -15,10 +15,10 @@
 1. Прочитайте руководство пользователя на листе «HowTo».<br>
 1. Начните использовать инструмент.<br>
 
-## В разработке:
+## В разработке
 - нет
   
-## Готово:
+## Готово
 - [x] <img src="/static/addin.png" width="75"> [Calc_Tables Excel Add-In](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/calc_tables) - аналитическая надстройка, помогающая работать с многопараметрическими моделями (рассчитать сразу много вариантов возможных решений) и облегчающая работу с Solver Add-In.
 - [x] <img src="/static/vba-free.png" width="75"> [Инструмент для создания гистограмм](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/histogram_maker) - Инструмент для настройки диапазонов данных и создания "красивых" графиков гистограмм.
 - [x] <img src="/static/vba-free.png" width="75"> [Инструмент для принятия групповых решений](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/decision_maker) - Инструмент для принятия решений на основе мнений экспертов.
