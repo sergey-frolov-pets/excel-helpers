@@ -16,7 +16,7 @@
 1. Начните использовать инструмент.<br>
 
 ## В разработке
-- нет
+- [ ] <img src="/static/snippets.png" width="75"> [VBA Git](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/frameworks/vba-git) - полная поддержка команд Git в Immediate Window.
   
 ## Готово
 - [x] <img src="/static/addin.png" width="75"> [Calc_Tables Excel Add-In](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/calc_tables) - аналитическая надстройка, помогающая работать с многопараметрическими моделями (рассчитать сразу много вариантов возможных решений) и облегчающая работу с Solver Add-In.
