@@ -16,7 +16,7 @@
 1. Use the tool.<br>
 
 ## Coming soon
-- NA
+- [  ] <img src="/static/snippets.png" width="75"> [VBA Git](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/frameworks/vba-git) - full support of Git commands directly from Immediate Window.
   
 ## Done
 - [x] <img src="/static/addin.png" width="75"> [Calc_Tables Excel Add-In](https://github.com/sergey-frolov-pets/excel-helpers/tree/master/tools/calc_tables) - Scenarios & Solvers analysis add-in that helps to work with multi-parameters models.
