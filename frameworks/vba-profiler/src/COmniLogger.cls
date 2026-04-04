@@ -165,16 +165,10 @@ Public Sub logHeader()
 End Sub
 
 Public Sub log(ParamArray data() As Variant)
-    Dim i As Integer
     Dim toPrint As String
-    Dim vArg As Variant
    
     If mLogTargetType <> logRange Then
-        toPrint = ""
-        For Each vArg In data
-            toPrint = toPrint & IIf(toPrint = "", vArg, mLogDelimiter & vArg)
-        Next vArg
-    
+        toPrint = composeLine(data)
     End If
 
     Select Case mLogTargetType
@@ -185,27 +179,48 @@ Public Sub log(ParamArray data() As Variant)
         Print #mFileID, toPrint
 
     Case logRange
-        i = 1
-        If UBound(data) > 1 Then
-            For Each vArg In data
-                Range(mLogTarget).Cells(mLogPosition, i) = vArg
-                incr i
-            Next vArg
-        Else
-            Dim dat
-            dat = Split(data(0), mLogDelimiter)
-            For Each vArg In dat
-                Range(mLogTarget).Cells(mLogPosition, i) = vArg
-                incr i
-            Next vArg
-        
-        End If
-        incr mLogPosition
+        writeValuesToRange data
     
     Case Else
     
     End Select
 
+End Sub
+
+Private Function composeLine(ByVal values As Variant) As String
+    Dim toPrint As String
+    Dim vArg As Variant
+
+    toPrint = ""
+
+    For Each vArg In values
+        toPrint = toPrint & IIf(toPrint = "", vArg, mLogDelimiter & vArg)
+    Next vArg
+
+    composeLine = toPrint
+End Function
+
+Private Sub writeValuesToRange(ByVal values As Variant)
+    Dim i As Integer
+    Dim vArg As Variant
+    Dim parsedValues As Variant
+
+    i = 1
+
+    If UBound(values) > 0 Then
+        For Each vArg In values
+            Range(mLogTarget).Cells(mLogPosition, i) = vArg
+            incr i
+        Next vArg
+    Else
+        parsedValues = Split(values(0), mLogDelimiter)
+        For Each vArg In parsedValues
+            Range(mLogTarget).Cells(mLogPosition, i) = vArg
+            incr i
+        Next vArg
+    End If
+
+    incr mLogPosition
 End Sub
 
 Private Sub Class_Initialize()

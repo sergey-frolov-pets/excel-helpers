@@ -50,7 +50,10 @@ Private mLogger As COmniLogger
 ''' </summary>
 Public Property Get logger() As COmniLogger
     'by default logging stream is Immediate window: option = logDebug
-    If mLogger Is Nothing Then mLogger.initLog logDebug
+    If mLogger Is Nothing Then
+        Set mLogger = New COmniLogger
+        mLogger.initLog logDebug
+    End If
 
     Set logger = mLogger
 

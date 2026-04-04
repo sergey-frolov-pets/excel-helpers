@@ -332,7 +332,7 @@ End Function
 ''' created 2020-08-20
 ''' --------------------------
 ''' </summary>
-Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Integer
+Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Long
     Dim sht
     
     If IsMissing(inSheet) Then
@@ -346,7 +346,7 @@ Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant)
     
     End If
 
-    lastRowInColumn = sht.Range(inColumn & "1").Cells(65536, inColumn).End(xlUp).Row
+    lastRowInColumn = sht.Cells(sht.Rows.Count, inColumn).End(xlUp).Row
 
     Set sht = Nothing
 End Function
@@ -602,6 +602,8 @@ Public Sub findDublicates(inRange As Range, idInColumns As String)
     Dim i As Long, j As Long, k As Integer
     Dim columnsID As Variant
     Dim res As String, finRes As String, curID As String, curChk As String
+    Dim inDubles As String
+    Dim curR As Long
     
     columnsID = Split(idInColumns, ",")
     inDubles = " "
