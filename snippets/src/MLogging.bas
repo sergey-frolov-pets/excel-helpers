@@ -89,8 +89,8 @@ Public Sub log(ByVal action As String, Optional who As String, Optional comments
     
     enableFastCode True
         
-        If IsMissing(startCell) Then
-            If IsMissing(iStartFromCell) Then
+        If startCell Is Nothing Then
+            If iStartFromCell Is Nothing Then
                 Err.Raise 501, "MLogging.log()", "Starting cell not stated. Run initLogging() first."
             Else
                 Set startCell = iStartFromCell
@@ -100,7 +100,7 @@ Public Sub log(ByVal action As String, Optional who As String, Optional comments
         topRow = startCell.Row
         
         cloneRow topRow, , , , True
-        putValuesToRow iStartFromCell, Format(Now(), "dd.mm.yy hh:mm"), who, action, comments
+        putValuesToRow startCell, Format(Now(), "dd.mm.yy hh:mm"), who, action, comments
         Application.CutCopyMode = False
         
         '[A1].Select 'TODO Change this cell address to more suitable for you

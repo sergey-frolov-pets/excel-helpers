@@ -154,10 +154,10 @@ Public Function getTextBetween(ByVal fromText As String, ByVal startMarker As St
         endPos = InStr(startPos, fromText, endMarker, False) - 1
         If endPos < 1 Then
             getTextBetween = Mid(fromText, startPos)
-            curPos = Len(inText)
+            curPos = Len(fromText)
         
         Else
-            getTextBetween = Mid(inText, startPos, endPos - startPos + 1)
+            getTextBetween = Mid(fromText, startPos, endPos - startPos + 1)
             curPos = endPos + 1
         
         End If
@@ -286,9 +286,12 @@ Public Function parseRecords(ByVal textToParse As String, arrRecordTokens() As S
     
     Dim firstRecordToken As String
     Dim startPos As Long
-    Dim curText As String
     Dim curRec() As String
     Dim tokensCount As Integer
+    Dim recordsCount As Integer
+    Dim lenOfFirstRecordToken As Long
+    Dim endOfCurrentRecord As Long
+    Dim i As Integer
     
     
     tokensCount = UBound(arrRecordTokens)

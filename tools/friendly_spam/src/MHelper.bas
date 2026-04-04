@@ -96,12 +96,10 @@ pastFromCell.Activate
 pastFromCell.Parent.Paste
 End Sub
 
-Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Integer
+Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Long
 Dim sht
 If IsMissing(inSheet) Then Set sht = ActiveSheet Else Set sht = Sheets(inSheet)
-With sht.Range(inColumn & "1")
-    lastRowInColumn = .Cells(65536, .Column).End(xlUp).Row
-End With
+lastRowInColumn = sht.Cells(sht.Rows.Count, inColumn).End(xlUp).Row
 Set sht = Nothing
 End Function
 

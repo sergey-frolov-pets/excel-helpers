@@ -49,7 +49,7 @@ End Sub
 
 Public Sub RemoveFromArray(arr As Variant, ByVal index As Integer)
     Dim i As Integer
-    If i < UBound(arr) Then
+    If index < UBound(arr) Then
         For i = index To UBound(arr) - 1
             If IsObject(arr(i + 1)) Then
                 Set arr(i) = arr(i + 1)
@@ -113,7 +113,7 @@ Public Function lastColumnInTheRow(ByVal forRow As Integer, Optional inSheet As 
     Set sht = Nothing
 End Function
 
-Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Integer
+Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Long
     Dim sht
     
     If IsMissing(inSheet) Then
@@ -127,7 +127,7 @@ Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant)
     
     End If
 
-    lastRowInColumn = sht.Range(inColumn & "1").Cells(65536, inColumn).End(xlUp).row
+    lastRowInColumn = sht.Cells(sht.Rows.Count, inColumn).End(xlUp).Row
 
     Set sht = Nothing
 End Function

@@ -124,7 +124,7 @@ End Sub
 Public Sub RemoveFromArray(arr As Variant, ByVal Index As Integer)
     Dim i As Integer
     
-    If i < UBound(arr) Then
+    If Index < UBound(arr) Then
         For i = Index To UBound(arr) - 1
             If IsObject(arr(i)) Then
                 Set arr(i) = arr(i + 1)

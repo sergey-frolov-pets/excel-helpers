@@ -109,7 +109,7 @@ End Function
 ''' created 2020-08-20
 ''' --------------------------
 ''' </summary>
-Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Integer
+Public Function lastRowInColumn(inColumn As String, Optional inSheet As Variant) As Long
     Dim sht
     
     If IsMissing(inSheet) Then

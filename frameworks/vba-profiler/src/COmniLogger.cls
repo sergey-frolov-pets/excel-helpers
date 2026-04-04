@@ -186,7 +186,7 @@ Public Sub log(ParamArray data() As Variant)
 
     Case logRange
         i = 1
-        If UBound(data) > 1 Then
+        If UBound(data) > 0 Then
             For Each vArg In data
                 Range(mLogTarget).Cells(mLogPosition, i) = vArg
                 incr i

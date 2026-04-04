@@ -155,9 +155,12 @@ Public Function parseRecords(ByVal textToParse As String, arrRecordTokens() As S
     
     Dim firstRecordToken As String
     Dim startPos As Long
-    Dim curText As String
     Dim curRec() As String
     Dim tokensCount As Integer
+    Dim recordsCount As Integer
+    Dim lenOfFirstRecordToken As Long
+    Dim endOfCurrentRecord As Long
+    Dim i As Integer
     
     
     tokensCount = UBound(arrRecordTokens)

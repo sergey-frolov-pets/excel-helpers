@@ -416,7 +416,7 @@ Public Sub log(ParamArray data() As Variant)
             incr i
         End If
         
-        If UBound(data) > 1 Then
+        If UBound(data) > 0 Then
             For Each vArg In data
                 Range(mLogTarget).Cells(mLogPosition, i) = vArg
                 incr i
@@ -482,7 +482,7 @@ Public Sub logArray(data As Variant)
             incr i
         End If
         
-        If UBound(data) > 1 Then
+        If UBound(data) > 0 Then
             For Each vArg In data
                 Range(mLogTarget).Cells(mLogPosition, i) = vArg
                 incr i
